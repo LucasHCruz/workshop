@@ -4,6 +4,10 @@ Summary
 
 Workshop of b2b team blablabla
 
+restaurants link:
+
+https://s3.amazonaws.com/edu-downloads.10gen.com/M201/2021/March/static/handouts/m201/restaurants.zip
+
 
 Setup:
 
