@@ -13,6 +13,8 @@ Setup:
 
 > mongoimport --db workshop --collection people --file /data/configdb/people.json
 
+> mongoimport -d workshop -c restaurants --drop /data/configdb/restaurants.json
+
 > mongo --port 27018
 
 > show dbs
