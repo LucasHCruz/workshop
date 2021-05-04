@@ -8,11 +8,17 @@ Workshop of b2b team blablabla
 Setup:
 
 > docker run -p 27018:27017 --name workshop-mongo -d mongo:4.0
+
 > brew install mongodb-database-tools
+
 > mongoimport --db workshop --collection people --file /data/configdb/people.json
+
 > mongo --port 27018
+
 > show dbs
+
 > use workshop
+
 > db.people.count({ "email" : {"$exists": 1} })
 
 Comandos ++++
