@@ -11,9 +11,9 @@ Setup:
 
 > brew install mongodb-database-tools
 
-> mongoimport --db workshop --collection people --file /data/configdb/people.json
+> mongoimport --port 27018 --db workshop --collection people --file /data/configdb/people.json
 
-> mongoimport -d workshop -c restaurants --drop /data/configdb/restaurants.json
+> mongoimport --port 27018 -d workshop -c restaurants --drop /data/configdb/restaurants.json
 
 > mongo --port 27018
 
